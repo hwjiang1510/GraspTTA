@@ -69,8 +69,9 @@
 
     <!--------------------- Author Names --------------------->
     <div class="row">
-      <div class="col-md-1">
+      <div class="col-md-2">
       </div>
+
       <div class="col-md-2">
         <center><span style="font-size:16px">
           <a href="https://hwjiang1510.github.io/">Hanwen Jiang*</a>
@@ -95,16 +96,15 @@
         </span></center>
       </div>
 
-      <div class="col-md-1">
+      <div class="col-md-2">
       </div>
     </div>
 
     <!--------------------- AFFILIATIONS --------------------->
     <div class="gap-5"></div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-5">
       </div>
-
       
       <div class="col-md-2">
         <center><span style="font-size:16px">
@@ -112,8 +112,7 @@
         </span></center>
       </div>
 
-
-      <div class="col-md-3">
+      <div class="col-md-5">
       </div>
     </div>
     <!--------------------- paper and code link --------------------->
@@ -128,7 +127,7 @@
         </span></center>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <center><span style="font-size:16px">
           [code (coming soon)]
         </span></center>
@@ -191,18 +190,24 @@ The whole pipeline is trained end-to-end by minimizing the loss between predicte
     
     <center><b><span style="font-size:20px"> Input and output </span></b></center>
     <div class="gap-10"></div>
-    <p> At test-time, the input of the grasp generation framework is only the object. 
+    <center><p><span style="font-size:14px"> At test-time, the input of the grasp generation framework is only the object. 
       Then, the models predict hand meshes for grasping the objects. 
-      We also show the contact between hand-object, where brighter regions have more contactness.</p>
+      We also show the contact between hand-object, where brighter regions have more contactness. </span></p></center>
     <div class="gap-10"></div>
-
+    <div class="gap-10"></div>
+    <div class="row no-gutters">
+      <div class="col-12">
+        <img src="./sources/input_output.png" style="margin:1em;max-width:95%">
+      </div>
+    </div>
+    <hr>
 
     <center><b><span style="font-size:20px"> Obamn (in-domain objects) </span></b></center>
     <div class="gap-10"></div>
 
 
     <center><b><span style="font-size:18px"> Compare with GT </span></b></center>
-    <center><b><span style="font-size:14px"> Note that grasp generation is multi-modal, and generated grasps can be different from GT. Ideal grasps should be natural and physically plausible. </span></b></center>
+    <center><p><span style="font-size:14px"> (Note that grasp generation is multi-modal, and generated grasps can be different from GT. Ideal grasps should be natural and physically plausible.) </span></p></center>
     <div class="gap-10"></div>
 
     <div class="row no-gutters">
@@ -232,20 +237,20 @@ The whole pipeline is trained end-to-end by minimizing the loss between predicte
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_gt_0.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_gt_0.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_pred_0.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_pred_0.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_gt_1.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_gt_1.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_pred_1.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_pred_1.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
@@ -255,41 +260,41 @@ The whole pipeline is trained end-to-end by minimizing the loss between predicte
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_gt_2.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_gt_2.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_pred_2.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_pred_2.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_gt_3.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_gt_3.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_pred_3.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_pred_3.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
     </div>
 
     <center><b><span style="font-size:18px"> More results </span></b></center>
-    <center><b><span style="font-size:14px"> (Every example is shown with 3 views) </span></b></center>
+    <center><p><span style="font-size:14px"> (Every example is shown with 3 views) </span></p></center>
     <div class="gap-10"></div>
     <div class="row no-gutters">
-      <div class="col-3">
+      <div class="col-12">
         <img src="./sources/supp_obman.png" style="margin:1em;max-width:95%">
       </div>
     </div>
-
+    <hr>
 
 
     <div class="gap-10"></div>
     <center><b><span style="font-size:20px"> HO-3D and FPHA (Out-of-domain objects) </span></b></center>
     <div class="gap-10"></div>
 
-    <center><b><span style="font-size:20px"> Results in 3D </span></b></center>
+    <center><p><span style="font-size:18px"> Results in 3D </span></p></center>
     <div class="gap-10"></div>
 
     <div class="row no-gutters">
@@ -319,33 +324,34 @@ The whole pipeline is trained end-to-end by minimizing the loss between predicte
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_ho_0.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_ho_0.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_ho_1.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_ho_1.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
       <div class="col-6">
         <div class="row no-gutters">
           <div class="col-3">
-            <img src="./source/obman_ho_2.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_ho_2.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
           <div class="col-3">
-            <img src="./source/obman_ho_3.gif" style="max-width:95%;border:1px solid #021a40;">
+            <img src="./sources/obman_ho_3.gif" style="max-width:95%;border:1px solid #021a40;">
           </div>
         </div>
       </div>
     </div>
 
 
-    <center><b><span style="font-size:20px"> More results </span></b></center>
+    <center><b><span style="font-size:18px"> More results </span></b></center>
     <div class="gap-10"></div>
     <div class="row no-gutters">
-      <div class="col-3">
+      <div class="col-12">
         <img src="./sources/supp_generalization.png" style="margin:1em;max-width:95%">
       </div>
     </div>
+    <hr>
 <!--
     <b><span style="font-size:20px">Qualitative Results:</span></b><br>
     <div class="gap-20"></div>
