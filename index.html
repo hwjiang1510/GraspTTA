@@ -9,7 +9,9 @@
           content="Hand-Object Contact Consistency Reasoning for Human Grasps Generation">
     <meta name="author" content="Hanwen Jiang, Shaowei Liu, Jiashun Wang, Xiaolong Wang">
 
-    <title>Hand-Object Contact Consistency Reasoning for Human Grasps Generation</title>
+    <title>
+        Hand-Object Contact Consistency Reasoning for Human Grasps Generation
+    </title>
     <!-- Bootstrap core CSS -->
     <!--link href="bootstrap.min.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-<div class="jumbotron jumbotron-fluid" align="center">
+<div class="jumbotron jumbotron-fluid">
     <div class="container"></div>
     <h2>Hand-Object Contact Consistency Reasoning for Human Grasps Generation</h2>
     <hr>
@@ -36,7 +38,7 @@
     </div>
 </div>
 
-<div class="container" align="center">
+<div class="container">
     <div class="section">
         <div class="row">
             <div class="col-sm-12">
@@ -45,7 +47,6 @@
         </div>
         <hr>
     </div>
-    <div class="gap-10"></div>
 
     <div class="section">
         <div class="vcontainer">
@@ -58,7 +59,6 @@
             While predicting robot grasps with parallel jaw grippers have been well studied and widely applied in robot manipulation tasks, the study on natural human grasp generation with a multi-finger hand remains a very challenging problem. In this paper, we propose to generate human grasps given a 3D object in the world. Our key observation is that it is crucial to model the consistency between the hand contact points and object contact regions. That is, we encourage the prior hand contact points to be close to the object surface and the object common contact regions to be touched by the hand at the same time. Based on the hand-object contact consistency, we design novel objectives in training the human grasp generation model and also a new self-supervised task which allows the grasp generation network to be adjusted even during test time. Our experiments show significant improvement in human grasp generation over state-of-the-art approaches by a large margin. More interestingly, by optimizing the model during test time with the self-supervised task, it helps achieve larger gain on unseen and out-of-domain objects.   <hr>
         </p>
     </div>
-    <div class="gap-20"></div>
 
     <div class="section">
         <h2>Results on Obman (in-domain objects)</h2>
@@ -133,7 +133,6 @@
             </div>
         </div>
     </div>
-    <div class="gap-20"></div>
 
     <div class="section">
         <h2>Results on HO-3D and FPHA (in-domain objects)</h2>
