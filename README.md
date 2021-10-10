@@ -3,7 +3,7 @@
 
 [Project Page with Videos](https://hwjiang1510.github.io/GraspTTA/)
 
-![Teaser]()
+![Teaser](./imgs/teaser.png)
 
 
 ## Demo
@@ -14,7 +14,7 @@ python vis_diverse_grasp --obj_id=6
 ```
 The visualization will look like this:
 
-![Visualization]()
+![Visualization](./imgs/vis.png)
 
 ### Generate diverse grasps on out-of-domain HO-3D dataset (the model is trained on ObMan dataset)
 You can also generate the grasps by yourself
@@ -60,3 +60,9 @@ Upsate soon
           year={2021}
 }
 ```
+
+## Acknowledgments
+We thank:
+* [MANO](https://github.com/otaheri/MANO) provided by Omid Taheri.
+* This implementation of [PointNet](https://github.com/yanx27/Pointnet_Pointnet2_pytorch).
+* This implementation of [CVAE](https://github.com/timbmg/VAE-CVAE-MNIST).

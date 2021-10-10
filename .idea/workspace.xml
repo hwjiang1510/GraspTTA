@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81f26551-f838-47b1-9f22-70f6ffac4b87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/teaser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/vis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_diverse_grasp_ho3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen_diverse_grasp_ho3d.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j9jAkN54CgttU6gtjAGoe10G1i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Affordance\release code\demo\gen_affordance\diverse_grasp\ho3d" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Affordance\release code\demo\gen_affordance\imgs" />
+      <recent name="G:\Affordance\affordance-cmap\network" />
+      <recent name="G:\Affordance\affordance-cmap\dataset" />
+      <recent name="G:\Affordance\affordance-cmap" />
+      <recent name="G:\Affordance\affordance-cmap\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.vis_diverse_grasp">
+    <configuration name="affordanceNet_obman_mano_vertex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="affordance-cmap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/affordanceNet_obman_mano_vertex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cmapnet_objhand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="affordance-cmap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/cmapnet_objhand.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vis_diverse_grasp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="affordance-cmap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vis_diverse_grasp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.vis_diverse_grasp" />
+        <item itemvalue="Python.cmapnet_objhand" />
+        <item itemvalue="Python.affordanceNet_obman_mano_vertex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81f26551-f838-47b1-9f22-70f6ffac4b87" name="Default Changelist" comment="" />
+      <created>1603223059869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603223059869</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633897264905">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633897264905" />
+    <state x="516" y="187" key="FileChooserDialogImpl" timestamp="1633902910153">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="516" y="187" key="FileChooserDialogImpl/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633902910153" />
+    <state width="1450" height="59" key="GridCell.Tab.0.bottom" timestamp="1633902033620">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1450" height="59" key="GridCell.Tab.0.bottom/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633902033620" />
+    <state width="1450" height="59" key="GridCell.Tab.0.center" timestamp="1633902033620">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1450" height="59" key="GridCell.Tab.0.center/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633902033620" />
+    <state width="1450" height="59" key="GridCell.Tab.0.left" timestamp="1633902033620">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1450" height="59" key="GridCell.Tab.0.left/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633902033620" />
+    <state width="1450" height="59" key="GridCell.Tab.0.right" timestamp="1633902033620">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1450" height="59" key="GridCell.Tab.0.right/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633902033620" />
+    <state x="651" y="238" width="600" height="532" key="find.popup" timestamp="1633897305416">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="651" y="238" width="600" height="532" key="find.popup/0.0.1470.864/-1920.0.1536.824@0.0.1470.864" timestamp="1633897305416" />
+  </component>
+</project>

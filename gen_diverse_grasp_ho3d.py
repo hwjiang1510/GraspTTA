@@ -130,7 +130,7 @@ def main(args, model, cmap_model, eval_loader, device, rh_mano, rh_faces):
                                           vhacd_exe=vhacd_exe, sample_idx=i)
             except:
                 simu_disp = 0.10
-            save_flag = (penetr_vol < 4e-6) and (simu_disp < 0.03) and sample_contact  # set your own threshold
+            save_flag = (penetr_vol < args.penetr_vol_thre) and (simu_disp < args.simu_disp_thre) and sample_contact
             print('generate id: {}, penetr vol: {}, simu disp: {}, contact: {}, save flag: {}'
                   .format(i, penetr_vol, simu_disp, sample_contact, save_flag))
             if save_flag:
@@ -140,7 +140,7 @@ def main(args, model, cmap_model, eval_loader, device, rh_mano, rh_faces):
                 trans_list.append(trans.tolist())
                 r_list.append(np.array([theta_x, theta_y, theta_z]).tolist())
 
-            if len(r_list) == 100:  # number of grasps you want to generate for the object
+            if len(r_list) == args.num_grasp:
                 break
 
         save_path = './diverse_grasp/ho3d/obj_id_{}.json'.format(int(obj_id.item()))
@@ -160,11 +160,8 @@ if __name__ == '__main__':
     '''experiment setting'''
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--batch_size", type=int, default=1)
-    parser.add_argument("--fig_root", type=str, default='figs/baseline')
     parser.add_argument("--use_cuda", type=int, default=1)
     parser.add_argument("--dataloader_workers", type=int, default=32)
-    parser.add_argument("--use_contactmap", default='False', action='store_true')
-    parser.add_argument("--vis", default='False', action='store_true')
     '''affordance network information'''
     parser.add_argument("--affordance_model_path", type=str, default='checkpoints/model_affordance_best_full.pth')
     parser.add_argument("--encoder_layer_sizes", type=list, default=[1024, 512, 256])
@@ -174,7 +171,12 @@ if __name__ == '__main__':
     parser.add_argument("--condition_size", type=int, default=1024)
     '''cmap network information'''
     parser.add_argument("--cmap_model_path", type=str, default='checkpoints/model_cmap_best.pth')
+    '''Generated graps information'''
     parser.add_argument("--obj_id", type=int, default=6)
+    # You can change the two thresholds to save the graps you want
+    parser.add_argument("--penetr_vol_thre", type=float, default=4e-6)  # 4cm^3
+    parser.add_argument("--simu_disp_thre", type=float, default=0.03)  # 3cm
+    parser.add_argument("--num_grasp", type=int, default=100)  # number of grasps you want to generate
     args = parser.parse_args()
     assert args.obj_id in [3, 4, 6, 10, 11, 19, 21, 25, 35, 37]
 
