@@ -20,7 +20,7 @@ The visualization will look like this:
 You can also generate the grasps by yourself
 - First, download [pretrained weights](https://drive.google.com/file/d/10e13bqfKIspjMsKLIO2gwIE-Y9nTtgi6/view?usp=sharing), unzip and put into `checkpoints`.
 - Second, download the MANO model files (`mano_v1_2.zip`) from [MANO website](http://mano.is.tue.mpg.de/). 
-Unzip and put `mano/models/MANO_RIGHT.pkl` into `models/mano`. 
+Unzip and put `mano/models/MANO_RIGHT.pkl` into `models/mano`. And please use [this MANO repo](https://github.com/hwjiang1510/MANO).
 - Third, download [HO-3D object models](https://drive.google.com/file/d/1ZiEsq3NHXv6TPXr9TK8XbxywG_22631a/view?usp=sharing), unzip and put into `models/HO3D_Object_models`.
 
 - The structure should look like this:
@@ -49,7 +49,7 @@ GraspTTA/
 
 
 ## Training code
-Upsate soon
+Please email me if you have interest in the training code. I don't have enough bandwidth to clean up the code now. But I am happy to provide a raw version of it.
 
 ## Citation
 ```
